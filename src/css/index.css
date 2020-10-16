@@ -45,7 +45,7 @@ body {
 }
 
 .annotation {
-    opacity: 80%;
+    /*opacity: 50%;*/
     border-radius: 2px;
     margin-bottom: 10px;
     padding: 3px;
@@ -94,24 +94,3 @@ body {
     justify-content: center;
     align-items: flex-end;   
 }
-
-/*
-.c1 {
-    background-color: #ffbe0b;
-}
-
-.c2 {
-    background-color: #fb5607;
-}
-
-.c3 {
-    background-color: #ff006e;
-}
-
-.c4 {
-    background-color: #8338ec;
-}
-
-.c5 {
-    background-color: #c41e3d;
-}*/
