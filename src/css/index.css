@@ -1,0 +1,117 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Miriam+Libre&family=Sansita+Swashed:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    margin: 60px 30px 0 30px;
+    background-color: #FAF9F9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 30px;
+}
+
+.header {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Sansita Swashed', cursive;
+    font-size: 50pt;
+    color: #2f363d;
+    font-weight: 600;
+    /*text-shadow: rgba(0, 0, 0, 0.55) 1.95px 1.95px 2.6px;*/
+    text-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.palette {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
+}
+
+.annotation {
+    opacity: 80%;
+    border-radius: 2px;
+    margin-bottom: 10px;
+    padding: 3px;
+    font-size: 20px;
+    font-family: 'Miriam Libre', sans-serif;
+    font-weight: 600;
+    color: #faf9f9;
+    text-shadow: rgba(0, 0, 0, 0.55) 1.95px 1.95px 2.6px;
+}
+
+.explanation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 30px;
+    width: 80%;
+    /*background-color: #F3F5F6;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;*/
+}
+
+.explanation-text {
+    padding: 5px;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    color: #758595;
+}
+
+.code {
+    color: #C41E3D;
+    font-family: 'Miriam Libre', sans-serif;
+    font-weight: 100;
+}
+
+.colors {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.color {
+    width: 100%;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;   
+}
+
+/*
+.c1 {
+    background-color: #ffbe0b;
+}
+
+.c2 {
+    background-color: #fb5607;
+}
+
+.c3 {
+    background-color: #ff006e;
+}
+
+.c4 {
+    background-color: #8338ec;
+}
+
+.c5 {
+    background-color: #c41e3d;
+}*/
